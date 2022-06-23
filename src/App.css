@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  font-family: 'Open Sans';
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form input{
+  width: 300px;
+  height: 60px;
+  margin: 10px;
+  font-size: 25px;
+}
+.form button{
+  width: 80px;
+  height: 45px; 
+  /* color: rgb(29, 28, 28); */
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 500px;
+  border: none;
+  transition: .3s ease;
+}
+.form button:hover{
+  color: white;
+  /* background-color: rgb(3, 109, 98); */
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.card{
+  width: 500px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#updateInput{
+  width: 180px;
+  height: 34px;
+  margin-bottom: 10px;
+}
+#delete{
+  background-color: rgb(53, 218, 247);
+}
+#update{
+  background-color: rgb(255, 100, 100);
+}
